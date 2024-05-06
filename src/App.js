@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Starting } from "./starting/Starting";
+import logo from "./logo.svg"
 
 function App() {
   return (
