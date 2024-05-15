@@ -8,7 +8,7 @@ export default function UserForm() {
     var [name, setName] = useState("");
     var [isValidInput, setValidInput] = useState("");
 
-    function updateUserInput(e) {
+    function updateUserInput(e: React.ChangeEvent<HTMLInputElement>) {
         setName(e.target.value)
     }
 
