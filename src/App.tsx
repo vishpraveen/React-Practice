@@ -1,11 +1,11 @@
 
 import './App.css';
 import React from "react";
-import DisplayClickCount from './component/DisplayClickCount';
-import FriutsList from './component/FriutsList';
-import Hello from './component/Hello';
-import Message from './component/Message';
-import UserForm from './component/UserForm';
+import DisplayClickCount from './components/DisplayClickCount';
+import FriutsList from './components/FriutsList';
+import Hello from './components/Hello';
+import Message from './components/Message';
+import UserForm from './components/UserForm';
 
 function App() {
   return (

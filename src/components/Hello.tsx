@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hello() {
     return (
-        <div>Hello Welcome!</div>
+        <h1>Hello Welcome!</h1>
     )
 }
 

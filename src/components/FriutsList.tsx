@@ -11,7 +11,6 @@ function FriutsList() {
             let data = JSON.parse(JSON.stringify(fruits));
             res(data);
         }).then(d => {
-            // console.log(`Response Data2: ${d}`)
             setCount(count + 1);
             setList(d as string[]);
         }).catch(e => {
