@@ -7,12 +7,14 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import UserForm from './components/UserForm';
 import ProductsList from './components/ProductsList';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
-      <Hello />
-      <Message data="Some data" />
+      <Navbar />
+      {/* <Hello /> */}
+      {/* <Message data="Some data" /> */}
       <ProductsList />
       {/* <FriutsList /> */}
       {/* <DisplayClickCount /> */}
